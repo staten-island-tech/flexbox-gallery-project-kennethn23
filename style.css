@@ -1,13 +1,11 @@
 body {
-    font-size: 10px;
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
     background: linear-gradient(to bottom, #ffbd7f, #e4a863, #cc964f);
 }
 
 .page-title {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     font-family: 'Poppins', sans-serif;
     background-color: rgb(255, 255, 0);
     text-align: center;
@@ -41,7 +39,7 @@ body {
 }
 
 #top {
-    margin-top: 180px;
+    margin-top: 13rem;
 }
 
 .card-title {
