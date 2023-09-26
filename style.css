@@ -14,8 +14,8 @@ body {
 }
 
 .card {
-    width: 100%;
-    height: 45vh;
+    width: 19%;
+    height: 20%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -26,7 +26,7 @@ body {
     margin: 30px;
     text-align: center;
     padding: 10px;
-    transition: 0.5s all ease-in-out;
+    transition: all 0.5s;
     border-style: outset;
     border-color: #ff8f33;
     border-width: 0.7rem;
@@ -35,7 +35,7 @@ body {
 
 .card:hover {
     background-color: #ffbb33;
-    transform: scale(1.05);
+    transform: scale(1.15);
 }
 
 #top {
@@ -49,15 +49,22 @@ body {
 }
 
 .card-img {
-    width: 465px;
-    height: 261px;
+    width: 348.75px;
+    height: 195.75px;
     transition: 0.5s all ease-in-out;
-}
-
-.card-img:hover {
-    transform: scale(1.3);
 }
 
 .card-holder {
     display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#rotate:hover {
+    transform: rotate(5turn);
+}
+
+#skew:hover {
+    transform: skew(30deg, 20deg);
 }
